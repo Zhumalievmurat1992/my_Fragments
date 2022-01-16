@@ -43,7 +43,7 @@ public class SecondFragment3 extends Fragment {
                 MainActivity.isMainFragment = false;
                 Bundle bundle = new Bundle();
 
-                SecondFragment3 fragment = new SecondFragment3();
+                Fragment fragment = new SecondFragment4();
 
                 if (etTheme3.getText()!=null){
                     bundle.putString(THEME,etTheme3.getText().toString());
